@@ -1,7 +1,7 @@
 //implementation based off https://www.geeksforgeeks.org/c/socket-programming-cc/
 //biggest difference is I changed the protocol from TCP to UDP
 
-#include <netinet/in.h>
+#include <arpa/inet.h>
 #include <stdio.h>
 #include <string.h>
 #include <sys/socket.h>
@@ -27,10 +27,10 @@ int main()
 
     //inet_pton - internet presentation to network
     //converts string ip addr to compact binary big endian    
-    //127.0.0.1 is IPv4 localhost - meaning this code just messages myself
+    //127.0.0.1 is IPv4 localhost - meaning this code just messages myself over the network
 
-    if(inet_pton(AF_NET, "127.0.0.1", &server_addr.sin_addr) <= 0) {
-        printf("\n invalid address \n);
+    if(inet_pton(AF_INET, "127.0.0.1", &server_addr.sin_addr) <= 0) {
+        printf("\n invalid address \n");
         return -1;
     }
 

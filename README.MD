@@ -14,4 +14,4 @@ make
 ```
 ## Server Setup
 
-![raspi](/media/raspi.jpg)
+![raspi](/media/raspi.jpeg)

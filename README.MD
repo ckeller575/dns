@@ -14,4 +14,4 @@ make
 ```
 ## My Server
 
-<img src="/media/raspi.jpeg" width="200" height = "400">
+<img src="/media/raspi.jpeg" width="400" height = "800">

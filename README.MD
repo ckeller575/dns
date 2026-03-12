@@ -12,6 +12,6 @@ mkdir build && cd build
 cmake 
 make
 ```
-## Server Setup
+## My Server
 
-![raspi](/media/raspi.jpeg)
+<img src="/media/raspi.jpeg" width="200" height = "400">

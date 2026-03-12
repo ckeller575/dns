@@ -12,6 +12,6 @@ mkdir build && cd build
 cmake 
 make
 ```
-##server setup
+## Server Setup
 
 ![image](./media/raspi.jpg)
